@@ -1,0 +1,89 @@
+body {
+  background-color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.navComponent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 18px;
+  width: 300px;
+}
+
+.navComponent div {
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.navComponent p {
+  color: black;
+}
+
+.interest,
+.home,
+.about {
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.interest:hover,
+.home:hover,
+.about:hover {
+  background-color: #f8f8f8;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.professionalJourneySection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 742px;
+}
+
+.professionalJourney {
+  width: 1000px;
+  text-align: center;
+}
+
+.professionalJourneyTitle {
+  font-size: 30px;
+}
+
+.professionalJourneyContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.stem,
+.verse,
+.workopti {
+  width: 400px;
+  height: 300px;
+  font-size: 25px;
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 50px;
+  border-radius: 10px;
+}
